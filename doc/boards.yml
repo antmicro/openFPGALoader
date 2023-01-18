@@ -202,6 +202,13 @@
   Memory: OK
   Flash: OK
 
+- ID: antmicro_lpddr4_tester
+  Description: Antmicro LPDDR4 Test Board
+  URL: https://opensource.antmicro.com/projects/lpddr4-test-board
+  FPGA: Kintex7 xc7k70t
+  Memory: OK
+  Flash: NT
+
 - ID: antmicro_ddr4_tester
   Description: Antmicro Data Center DRAM Tester
   URL: https://opensource.antmicro.com/projects/data-center-dram-tester
