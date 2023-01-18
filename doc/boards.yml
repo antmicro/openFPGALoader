@@ -209,6 +209,13 @@
   Memory: OK
   Flash: OK
 
+- ID: antmicro_ddr5_tester
+  Description: Antmicro DDR5 Tester
+  URL: https://opensource.antmicro.com/projects/ddr5-tester
+  FPGA: Kintex7 xc7k160t
+  Memory: OK
+  Flash: OK
+
 - ID: de0
   Description: Terasic DE0
   URL: https://www.terasic.com.tw/cgi-bin/page/archive.pl?No=364
