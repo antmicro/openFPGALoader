@@ -462,7 +462,8 @@ void Xilinx::program_mem(ConfigBitstreamParser *bitfile)
 	 * 20: Load the last bit of the JSTART instruction.   0     1   1
 	 * 21: Move to the UPDATE-IR state.                   X     1   1
 	 */
-	_jtag->shiftIR(JSTART, 6, Jtag::UPDATE_IR);
+	/* _jtag->shiftIR(JSTART, 6, Jtag::UPDATE_IR); */
+	/* _jtag->toggleClk(2000); */
 	/*
 	 * 22: Move to the RTI state and clock the
 	 *     startup sequence by applying a minimum         X     0   2000
